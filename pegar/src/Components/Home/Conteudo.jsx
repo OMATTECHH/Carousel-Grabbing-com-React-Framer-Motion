@@ -21,7 +21,8 @@ const Conteudo = () => {
     useEffect
   return (
     <>
-    <div>
+    <div className='p-3'>
+    <div className='min-w-95 text-center'>
         <motion.h1 initial={{x: 100}} animate={{x: 0}} transition={{duration: 1}} className='text-center text-6xl font-bold uppercase title'>grabbing</motion.h1>
     </div>
     <section>
@@ -51,6 +52,7 @@ const Conteudo = () => {
 
         </div>
     </section>
+    </div>
     </>
   )
 }
