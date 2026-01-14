@@ -6,7 +6,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/Carousel-Grabbing-com-React-Framer-Motion'>
     <Routes>
       <Route path='/*' element={<Home/>}/>
     </Routes>
